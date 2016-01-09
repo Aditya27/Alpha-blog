@@ -1,4 +1,4 @@
-<h1> Created article </h1>
+<h1> Show the Created article </h1>
 
 <p>
   Title : <%= @article.title %>
@@ -7,3 +7,6 @@
 <p>
   Description : <%= @article.description %> 
 </p>
+
+<p><%= link_to "Edit this article", edit_article_path(@article) %></p>
+<p><%= link_to "See article listing", articles_path %></p>
