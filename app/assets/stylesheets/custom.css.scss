@@ -3,6 +3,8 @@ $navbar-default-bg: #99cc00;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// navigation bar
+
 #logo {
 	float: left;
 	font-size: 1.7em;
@@ -20,6 +22,8 @@ $navbar-default-bg: #99cc00;
 .center {
 	text-align: center;
 }
+
+//jumbotron
 
 .jumbotron {
 	background-image: asset_url('img1.jpg');
@@ -39,6 +43,8 @@ $navbar-default-bg: #99cc00;
 .jumbotron h1:hover {
 	color: #fff;
 }
+
+//Footer
 
 .footer {
 	margin-top: 45px;
@@ -64,6 +70,8 @@ $navbar-default-bg: #99cc00;
 	float: left;
 	margin-left: 15px;
 }
+
+//Form partials
 
 .header-align {
 	text-align: center;
